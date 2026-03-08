@@ -12,7 +12,8 @@ This repository contains the official implementation for the paper: "Architectur
 
     (This includes transformers, peft, bitsandbytes, faiss-cpu, and sentence-transformers)
 5.  Dataset Setup:
-    Download the Mental Health Counseling Conversations dataset from Kaggle .Ensure the file is named train_data.csv and placed in the /input/                            directory.The script will automatically perform a 5-fold cross-validation split using a fixed random_seed=42.
+    Download the Mental Health Counseling Conversations dataset from Kaggle . Ensure the file is named train_data.csv and placed in the /input/                        directory.The script will automatically perform a 5-fold cross-validation split using a fixed random_seed=42.
+    dataset link:https://www.kaggle.com/datasets/livesiyam/5000-data-again
     
 7.  How to Reproduce the 18 Experiments:
     Instead of 18 separate files, we provide two Universal Scripts that use a "switch" to change between model variants.
